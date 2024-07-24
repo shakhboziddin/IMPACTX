@@ -57,7 +57,7 @@ html {
 }
 
 .navbar img {
-    width: 12%;
+    width: 10%;
 }
 
 .head {
@@ -107,7 +107,10 @@ html {
 
 
 
-
+.emb{
+    width: 900px;
+    height: 200px;
+}
 
 
 

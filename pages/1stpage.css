@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #8f8f8f #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8f8f8f;
+    border-radius: 43px;
+    border: 10px solid #ffffff;
+}
+
+section{
+    background-color: black;
+    color: white;
+    height: 120vh;
+
+}
+
+.navbar{
+    height: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+.navbar img{
+    width: 10%;
+}
+.main{
+    width: 100%;
+}
+.header{
+    text-align: center  ;
+}
+.header h1{
+    font-size: 50px;
+    font-style: italic;
+}
+.vid{
+    width: 40%;
+    height: 50%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 50px auto;
+}
+
+.btn{
+    text-align: center;
+    height: 200px;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 20px 30px;
+    transition: .3s;
+}
+.btn a:hover{
+    background-color: #151515;
+
+}
+@media(max-width: 695px){
+    .vid{
+        width: 90%;
+    }
+    section{
+        height: 100vh;
+    }
+    .header h1{
+        font-size: 30px;
+    }
+    .navbar img{
+        width: 20%;
+    }
+}
